@@ -1,12 +1,14 @@
+package II;
+
 import java.util.NoSuchElementException;
 
 /**
- * Your implementation of a MinHeap.
+ * Your implementation of a II.MinHeap.
  */
 public class MinHeap<T extends Comparable<? super T>> {
 
     /**
-     * The initial capacity of the MinHeap.
+     * The initial capacity of the II.MinHeap.
      *
      * DO NOT MODIFY THIS VARIABLE!
      */
@@ -19,7 +21,7 @@ public class MinHeap<T extends Comparable<? super T>> {
     private int size;
 
     /**
-     * This is the constructor that constructs a new MinHeap.
+     * This is the constructor that constructs a new II.MinHeap.
      *
      * Recall that Java does not allow for regular generic array creation,
      * so instead we cast a Comparable[] to a T[] to get the generic typing.

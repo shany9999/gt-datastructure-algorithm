@@ -1,12 +1,14 @@
+package I;
+
 import java.util.NoSuchElementException;
 
 /**
- * Your implementation of an ArrayList.
+ * Your implementation of an I.ArrayList.
  */
 public class ArrayList<T> {
 
     /*
-     * The initial capacity of the ArrayList.
+     * The initial capacity of the I.ArrayList.
      *
      * DO NOT MODIFY THIS VARIABLE!
      */
@@ -19,7 +21,7 @@ public class ArrayList<T> {
     private int size;
 
     /**
-     * This is the constructor that constructs a new ArrayList.
+     * This is the constructor that constructs a new I.ArrayList.
      *
      * Recall that Java does not allow for regular generic array creation,
      * so instead we cast an Object[] to a T[] to get the generic typing.

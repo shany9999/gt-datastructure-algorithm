@@ -1,3 +1,7 @@
+package II;
+
+import II.TreeNode;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -22,7 +26,7 @@ public class Traversals<T extends Comparable<? super T>> {
      * Must be O(n).
      *
      * @param <T> Generic type.
-     * @param root The root of a BST.
+     * @param root The root of a II.BST.
      * @return List containing the pre-order traversal of the tree.
      */
     public List<T> preorder(TreeNode<T> root) {
@@ -51,7 +55,7 @@ public class Traversals<T extends Comparable<? super T>> {
      * Must be O(n).
      *
      * @param <T> Generic type.
-     * @param root The root of a BST.
+     * @param root The root of a II.BST.
      * @return List containing the in-order traversal of the tree.
      */
     public List<T> inorder(TreeNode<T> root) {
@@ -79,7 +83,7 @@ public class Traversals<T extends Comparable<? super T>> {
      * Must be O(n).
      *
      * @param <T> Generic type.
-     * @param root The root of a BST.
+     * @param root The root of a II.BST.
      * @return List containing the post-order traversal of the tree.
      */
     public List<T> postorder(TreeNode<T> root) {

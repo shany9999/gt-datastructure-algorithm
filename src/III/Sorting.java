@@ -1,3 +1,5 @@
+package III;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.LinkedList;
@@ -97,7 +99,7 @@ public class Sorting {
      * get each power of BASE naturally and efficiently as the algorithm
      * progresses through each digit.
      *
-     * You may use an ArrayList or LinkedList if you wish, but it should only
+     * You may use an I.ArrayList or LinkedList if you wish, but it should only
      * be used inside radix sort and any radix sort helpers. Do NOT use these
      * classes with merge sort. However, be sure the List implementation you
      * choose allows for stability while being as efficient as possible.

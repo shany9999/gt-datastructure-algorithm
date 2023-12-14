@@ -1,5 +1,7 @@
+package III;
+
 /**
- * Node class used for implementing the AVL.
+ * Node class used for implementing the III.AVL.
  *
  * DO NOT MODIFY THIS FILE!!
  *
@@ -15,7 +17,7 @@ public class AVLNode<T extends Comparable<? super T>> {
     private int balanceFactor;
 
     /**
-     * Create an AVLNode with the given data.
+     * Create an III.AVLNode with the given data.
      *
      * @param data The data stored in the new node.
      */

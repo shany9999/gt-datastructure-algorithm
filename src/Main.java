@@ -6,7 +6,7 @@ public class Main {
 
 
 //    public static void main(String[] args) {
-//        //Sorting;divide and conquer
+//        //III.Sorting;divide and conquer
 //        int[] arrayTwo = new int[5];
 //        arrayTwo[0] = -50;
 //        arrayTwo[1] = 500;
@@ -19,7 +19,7 @@ public class Main {
 //        }
 //        System.out.println("==========");
 //
-//        Sorting.lsdRadixSort(arrayTwo);
+//        III.Sorting.lsdRadixSort(arrayTwo);
 //        for (int i = 0; i < 5; i++) {
 //            System.out.println(arrayTwo[i]);
 //        }
@@ -46,7 +46,7 @@ public class Main {
 
 
 //    public static void main(String[] args) {
-//        ExternalChainingHashMap<Integer, Integer> exMap = new ExternalChainingHashMap<>();
+//        II.ExternalChainingHashMap<Integer, Integer> exMap = new II.ExternalChainingHashMap<>();
 //        /* YuanYuan */
 //        for (int i = 0; i < 9; i++) {
 //            exMap.put(new Integer(13*i), new Integer(i));
@@ -66,7 +66,7 @@ public class Main {
 
 
 //    public static void main(String[] args) {
-//        MinHeap newheap = new MinHeap();
+//        II.MinHeap newheap = new II.MinHeap();
 ////        for (int i = 1; i <= 10; i++) {
 ////            newheap.add(i);
 ////        }
@@ -97,12 +97,12 @@ public class Main {
 
 
 //    public static void main(String[] args) {
-//        SinglyLinkedList lst = new SinglyLinkedList();
+//        I.SinglyLinkedList lst = new I.SinglyLinkedList();
 //        System.out.println(lst.size());
 //        lst.addToFront(1);
 //        lst.addToFront(0);
 //        lst.addToBack(2);
-//        SinglyLinkedListNode cur = lst.getHead();
+//        I.SinglyLinkedListNode cur = lst.getHead();
 //        System.out.println(lst.size());
 //        for (int i = 0; i < lst.size(); i++) {
 //            System.out.println("list: "+ cur.getData());

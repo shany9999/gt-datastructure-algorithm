@@ -1,12 +1,14 @@
+package I;
+
 import java.util.NoSuchElementException;
 
 /**
- * Your implementation of an ArrayQueue.
+ * Your implementation of an I.ArrayQueue.
  */
 public class ArrayQueue<T> {
 
     /*
-     * The initial capacity of the ArrayQueue.
+     * The initial capacity of the I.ArrayQueue.
      *
      * DO NOT MODIFY THIS VARIABLE.
      */
@@ -20,7 +22,7 @@ public class ArrayQueue<T> {
     private int size;
 
     /**
-     * This is the constructor that constructs a new ArrayQueue.
+     * This is the constructor that constructs a new I.ArrayQueue.
      *
      * Recall that Java does not allow for regular generic array creation,
      * so instead we cast an Object[] to a T[] to get the generic typing.

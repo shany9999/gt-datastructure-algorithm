@@ -1,23 +1,25 @@
+package II;
+
 /**
- * Node class used for implementing the BST.
+ * Node class used for implementing the II.BST.
  *
  * DO NOT MODIFY THIS FILE!!
  *
  * @author CS 1332 TAs
  * @version 1.0
  */
-public class BSTNode<T extends Comparable<? super T>> {
+public class TreeNode<T extends Comparable<? super T>> {
 
     private T data;
-    private BSTNode<T> left;
-    private BSTNode<T> right;
+    private TreeNode<T> left;
+    private TreeNode<T> right;
 
     /**
-     * Constructs a BSTNode with the given data.
+     * Constructs a II.TreeNode with the given data.
      *
      * @param data the data stored in the new node
      */
-    BSTNode(T data) {
+    TreeNode(T data) {
         this.data = data;
     }
 
@@ -35,7 +37,7 @@ public class BSTNode<T extends Comparable<? super T>> {
      *
      * @return the left child
      */
-    BSTNode<T> getLeft() {
+    TreeNode<T> getLeft() {
         return left;
     }
 
@@ -44,7 +46,7 @@ public class BSTNode<T extends Comparable<? super T>> {
      *
      * @return the right child
      */
-    BSTNode<T> getRight() {
+    TreeNode<T> getRight() {
         return right;
     }
 
@@ -62,7 +64,7 @@ public class BSTNode<T extends Comparable<? super T>> {
      *
      * @param left the new left child
      */
-    void setLeft(BSTNode<T> left) {
+    void setLeft(TreeNode<T> left) {
         this.left = left;
     }
 
@@ -71,7 +73,7 @@ public class BSTNode<T extends Comparable<? super T>> {
      *
      * @param right the new right child
      */
-    void setRight(BSTNode<T> right) {
+    void setRight(TreeNode<T> right) {
         this.right = right;
     }
 }

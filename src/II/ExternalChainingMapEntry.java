@@ -1,5 +1,7 @@
+package II;
+
 /**
- * Map entry class used for implementing the ExternalChainingHashMap.
+ * Map entry class used for implementing the II.ExternalChainingHashMap.
  *
  * DO NOT MODIFY THIS FILE!!
  *
@@ -13,7 +15,7 @@ public class ExternalChainingMapEntry<K, V> {
     private ExternalChainingMapEntry<K, V> next;
 
     /**
-     * Constructs a new ExternalChainingMapEntry with only the given key and value.
+     * Constructs a new II.ExternalChainingMapEntry with only the given key and value.
      *
      * @param key   The key in the new entry.
      * @param value The value in the new entry.
@@ -23,7 +25,7 @@ public class ExternalChainingMapEntry<K, V> {
     }
 
     /**
-     * Constructs a new ExternalChainingMapEntry with the given key, value, and next reference.
+     * Constructs a new II.ExternalChainingMapEntry with the given key, value, and next reference.
      *
      * @param key   The key in the new entry.
      * @param value The value in the new entry.

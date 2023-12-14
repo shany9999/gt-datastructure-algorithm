@@ -1,5 +1,7 @@
+package I;
+
 /**
- * Node class used for implementing the SinglyLinkedList.
+ * Node class used for implementing the I.SinglyLinkedList.
  *
  * DO NOT MODIFY THIS FILE!!
  *
@@ -12,7 +14,7 @@ public class SinglyLinkedListNode<T> {
     private SinglyLinkedListNode<T> next;
 
     /**
-     * Constructs a new SinglyLinkedListNode with the given data and next node
+     * Constructs a new I.SinglyLinkedListNode with the given data and next node
      * reference.
      *
      * @param data the data stored in the new node
@@ -24,7 +26,7 @@ public class SinglyLinkedListNode<T> {
     }
 
     /**
-     * Creates a new SinglyLinkedListNode with only the given data.
+     * Creates a new I.SinglyLinkedListNode with only the given data.
      *
      * @param data the data stored in the new node
      */

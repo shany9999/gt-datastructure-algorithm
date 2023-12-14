@@ -1,12 +1,14 @@
+package II;
+
 import java.util.NoSuchElementException;
 
 /**
- * Your implementation of a ExternalChainingHashMap.
+ * Your implementation of a II.ExternalChainingHashMap.
  */
 public class ExternalChainingHashMap<K, V> {
 
     /*
-     * The initial capacity of the ExternalChainingHashMap when created with the
+     * The initial capacity of the II.ExternalChainingHashMap when created with the
      * default constructor.
      *
      * DO NOT MODIFY THIS VARIABLE!
@@ -14,7 +16,7 @@ public class ExternalChainingHashMap<K, V> {
     public static final int INITIAL_CAPACITY = 13;
 
     /*
-     * The max load factor of the ExternalChainingHashMap.
+     * The max load factor of the II.ExternalChainingHashMap.
      *
      * DO NOT MODIFY THIS VARIABLE!
      */
@@ -27,7 +29,7 @@ public class ExternalChainingHashMap<K, V> {
     private int size;
 
     /**
-     * Constructs a new ExternalChainingHashMap with an initial capacity of INITIAL_CAPACITY.
+     * Constructs a new II.ExternalChainingHashMap with an initial capacity of INITIAL_CAPACITY.
      */
     public ExternalChainingHashMap() {
         //DO NOT MODIFY THIS METHOD!
@@ -96,7 +98,7 @@ public class ExternalChainingHashMap<K, V> {
                 resizeBackingTable(table.length) ;
             }
 
-            ExternalChainingMapEntry<K, V> newEntry = new ExternalChainingMapEntry<K, V> (key, value, table[idx]);
+            ExternalChainingMapEntry<K, V> newEntry = new ExternalChainingMapEntry<K, V>(key, value, table[idx]);
             table[idx] = newEntry;
             return null;
 
@@ -108,7 +110,7 @@ public class ExternalChainingHashMap<K, V> {
                 resizeBackingTable(table.length) ;
             }
 
-            ExternalChainingMapEntry<K, V> entry = new ExternalChainingMapEntry<K, V> (key, value, null);
+            ExternalChainingMapEntry<K, V> entry = new ExternalChainingMapEntry<K, V>(key, value, null);
             table[idx] = entry;
             return null;
 
@@ -189,9 +191,9 @@ public class ExternalChainingHashMap<K, V> {
                 while (cur != null){
                     int idx = Math.abs(cur.getKey().hashCode() % (length*2+1));
                     if (newTable[idx] == null){
-                        newTable[idx] = new ExternalChainingMapEntry<K,V> (cur.getKey(), cur.getValue(), null);
+                        newTable[idx] = new ExternalChainingMapEntry<K,V>(cur.getKey(), cur.getValue(), null);
                     }else{
-                        newTable[idx] = new ExternalChainingMapEntry<K,V> (cur.getKey(), cur.getValue(), newTable[idx]);
+                        newTable[idx] = new ExternalChainingMapEntry<K,V>(cur.getKey(), cur.getValue(), newTable[idx]);
                     }
                     cur = cur.getNext();
 

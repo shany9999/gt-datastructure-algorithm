@@ -1,7 +1,11 @@
+package III;
+
+import III.AVLNode;
+
 import java.util.NoSuchElementException;
 
 /**
- * Your implementation of an AVL.
+ * Your implementation of an III.AVL.
  */
 public class AVL<T extends Comparable<? super T>> {
 
@@ -18,7 +22,7 @@ public class AVL<T extends Comparable<? super T>> {
     /**
      * Adds the element to the tree.
      *
-     * Start by adding it as a leaf like in a regular BST and then rotate the
+     * Start by adding it as a leaf like in a regular II.BST and then rotate the
      * tree as necessary.
      *
      * If the data is already in the tree, then nothing should be done (the
@@ -260,7 +264,7 @@ public class AVL<T extends Comparable<? super T>> {
      * This method should run in O(1).
      *
      * @param currentNode The current node under inspection.
-     * @return The AVLNode that the caller should return.
+     * @return The III.AVLNode that the caller should return.
      */
     private AVLNode<T> balance(AVLNode<T> currentNode) {
         // COPY YOUR CODE FROM PART 1 OF THE ASSIGNMENT!
