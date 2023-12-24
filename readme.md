@@ -21,5 +21,6 @@ Module 10- III.IterativeSorts
 
 Module 11- III.Sorting (divide and conquer sorts)
 
-## IV: Pattern Matching, Dijkstra's, MST, and Dynamic Programming Algorithms 
+## IV: Pattern Matching, Dijkstra's, MST, and Dynamic Programming Algorithms
+Module 12- IV.PatternMatching ; IV.CharacterComparator
 
