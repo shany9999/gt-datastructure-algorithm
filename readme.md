@@ -14,7 +14,7 @@ Module 6- II.MinHeap
 
 Module 7- II.ExternalChainingHashMap ; II.ExternalChainingMapEntry ; (part wrong)
 
-## III: III.AVL and 2-4 Trees, Divide and Conquer Algorithms
+## III: AVL and 2-4 Trees, Divide and Conquer Algorithms
 Module 8- III.AVL ; III.AVLNode
 
 Module 10- III.IterativeSorts
@@ -23,4 +23,6 @@ Module 11- III.Sorting (divide and conquer sorts)
 
 ## IV: Pattern Matching, Dijkstra's, MST, and Dynamic Programming Algorithms
 Module 12- IV.PatternMatching ; IV.CharacterComparator
+
+Module 13- IV.GraphAlgorithms ; IV.Edge ; IV.Graph ; IV.Vertex ; IV.VertexDistance 
 
