@@ -24,5 +24,6 @@ Module 11- III.Sorting (divide and conquer sorts)
 ## IV: Pattern Matching, Dijkstra's, MST, and Dynamic Programming Algorithms
 Module 12- IV.PatternMatching ; IV.CharacterComparator
 
-Module 13- IV.GraphAlgorithms ; IV.Edge ; IV.Graph ; IV.Vertex ; IV.VertexDistance 
+Module 13- IV.GraphAlgorithms -- bfs / dfs ; IV.Edge ; IV.Graph ; IV.Vertex ; IV.VertexDistance 
 
+Module 14- IV.GraphAlgorithms -- prim's algorithm
